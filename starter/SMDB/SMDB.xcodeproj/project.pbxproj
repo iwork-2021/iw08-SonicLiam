@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		044116FA2783D6E400B83870 /* Es2EnCharDecoder16Bit.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 044116F62783D6E300B83870 /* Es2EnCharDecoder16Bit.mlmodel */; };
+		044116FB2783D6E400B83870 /* esCharToInt.json in Resources */ = {isa = PBXBuildFile; fileRef = 044116F72783D6E300B83870 /* esCharToInt.json */; };
+		044116FC2783D6E400B83870 /* Es2EnCharEncoder16Bit.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 044116F82783D6E300B83870 /* Es2EnCharEncoder16Bit.mlmodel */; };
+		044116FD2783D6E400B83870 /* intToEnChar.json in Resources */ = {isa = PBXBuildFile; fileRef = 044116F92783D6E400B83870 /* intToEnChar.json */; };
 		0A5BEDC61F0AECB600AB37C5 /* NLPHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5BEDC51F0AECB600AB37C5 /* NLPHelper.swift */; };
 		0A5BEDCB1F0B27B900AB37C5 /* Review.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5BEDC91F0B261300AB37C5 /* Review.swift */; };
 		0A5BEDCC1F0B27BB00AB37C5 /* ReviewsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A5BEDC81F0B261300AB37C5 /* ReviewsManager.swift */; };
@@ -25,6 +29,10 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		044116F62783D6E300B83870 /* Es2EnCharDecoder16Bit.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Es2EnCharDecoder16Bit.mlmodel; sourceTree = "<group>"; };
+		044116F72783D6E300B83870 /* esCharToInt.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = esCharToInt.json; sourceTree = "<group>"; };
+		044116F82783D6E300B83870 /* Es2EnCharEncoder16Bit.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = Es2EnCharEncoder16Bit.mlmodel; sourceTree = "<group>"; };
+		044116F92783D6E400B83870 /* intToEnChar.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = intToEnChar.json; sourceTree = "<group>"; };
 		0A5BEDC51F0AECB600AB37C5 /* NLPHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NLPHelper.swift; sourceTree = "<group>"; };
 		0A5BEDC81F0B261300AB37C5 /* ReviewsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReviewsManager.swift; sourceTree = "<group>"; };
 		0A5BEDC91F0B261300AB37C5 /* Review.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Review.swift; sourceTree = "<group>"; };
@@ -76,6 +84,10 @@
 			children = (
 				F5FE7495241914D100E16593 /* SentimentClassifier.mlmodel */,
 				0A5EA8431F07E6D6006E6651 /* AppDelegate.swift */,
+				044116F62783D6E300B83870 /* Es2EnCharDecoder16Bit.mlmodel */,
+				044116F82783D6E300B83870 /* Es2EnCharEncoder16Bit.mlmodel */,
+				044116F72783D6E300B83870 /* esCharToInt.json */,
+				044116F92783D6E400B83870 /* intToEnChar.json */,
 				0A5EA8591F07F1B8006E6651 /* ReviewsTableViewController.swift */,
 				0A5EA85D1F083434006E6651 /* ReviewTableViewCell.swift */,
 				4C9B08941F0C8D22009C7DCD /* MovieListTableViewController.swift */,
@@ -154,8 +166,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				0A5EA8561F07EE54006E6651 /* reviews.json in Resources */,
+				044116FD2783D6E400B83870 /* intToEnChar.json in Resources */,
 				4C9B08C61F0C980D009C7DCD /* LaunchScreen.storyboard in Resources */,
 				0A5EA84B1F07E6D6006E6651 /* Assets.xcassets in Resources */,
+				044116FB2783D6E400B83870 /* esCharToInt.json in Resources */,
 				0A5EA8491F07E6D6006E6651 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -167,6 +181,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				044116FC2783D6E400B83870 /* Es2EnCharEncoder16Bit.mlmodel in Sources */,
+				044116FA2783D6E400B83870 /* Es2EnCharDecoder16Bit.mlmodel in Sources */,
 				4C9B08951F0C8D22009C7DCD /* MovieListTableViewController.swift in Sources */,
 				0A5BEDCB1F0B27B900AB37C5 /* Review.swift in Sources */,
 				4C82E2531F0C9D0300C76453 /* ActorListTableViewController.swift in Sources */,
@@ -310,7 +326,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = NUD75B5WPS;
 				INFOPLIST_FILE = SMDB/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.raywenderlich.SMDB;
@@ -324,7 +340,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = "";
+				DEVELOPMENT_TEAM = NUD75B5WPS;
 				INFOPLIST_FILE = SMDB/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.raywenderlich.SMDB;
